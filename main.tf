@@ -29,6 +29,7 @@ module "bootstrap" {
   aws_iam_policy_permits_name = "GitHubActionsIamPolicyPermits"
   aws_iam_policy_assume_name  = "GitHubActionsIamPolicyAssume"
 }
+*/
 
 # Build the VPC
 resource "aws_vpc" "vpc" {
@@ -60,4 +61,4 @@ resource "aws_route_table" "route_table2" {
     Terraform = "true"
   }
 }
-*/
+
